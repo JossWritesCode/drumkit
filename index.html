@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
 
@@ -59,27 +58,18 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-
-  const playSound = e => {
+  function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-    if (!audio) return; // rewind to the start
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    if (!audio) return;
+
+    key.style.animationPlayState = 'running';
+    var newone = key.cloneNode(true);
+    key.parentNode.replaceChild(newone, key);
     audio.currentTime = 0;
     audio.play();
+  }
 
-    key.classList.add('playing');
-  
-  }
-  
-  function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    this.classList.remove('playing');
-  }
-  
-  const keys = document.querySelectorAll('.key');
-  
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-  
   window.addEventListener('keydown', playSound);
 </script>
 
