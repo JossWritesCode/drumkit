@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Site deployed here: [[https://rifftube.herokuapp.com/](https://enchanting-bublanina-4c518b.netlify.app/)](https://enchanting-bublanina-4c518b.netlify.app/)]([https://rifftube.herokuapp.com/](https://enchanting-bublanina-4c518b.netlify.app/))
+Site deployed here: [https://ecma-international.org/publications-and-standards/standards/ecma-262/](https://ecma-international.org/publications-and-standards/standards/ecma-262/) 
 
 ## Built With
 
