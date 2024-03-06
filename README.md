@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Site deployed here: [https://ecma-international.org/publications-and-standards/standards/ecma-262/](https://ecma-international.org/publications-and-standards/standards/ecma-262/) 
+Site deployed here: [https://enchanting-bublanina-4c518b.netlify.app/](https://enchanting-bublanina-4c518b.netlify.app/) 
 
 ## Built With
 
