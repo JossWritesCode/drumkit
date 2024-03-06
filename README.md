@@ -6,7 +6,7 @@ Site deployed here: [https://enchanting-bublanina-4c518b.netlify.app/](https://e
 
 ## Built With
 
-- [Javascript](https://reactjs.org/](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [Javascript](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
 
 ## Authors
 
